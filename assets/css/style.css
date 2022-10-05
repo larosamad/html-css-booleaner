@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size: 31%;
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    background-color: lightseagreen;
+}
+
+header #logo{
+    width: 15%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+main{
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.written-by {
+    font-size: 20px;
+    color: grey;
+}
+
+.writer{
+    color: lightseagreen;
+    font-size: 20px;
+}
+
+.date{
+    color: grey;
+    font-size: 15px;
+}
+
+.main-pictures{
+ align-content: center;}
+
+ .photo-credits{
+    font-size: 15px;
+    color: grey;
+ }
+
+ .text-1{
+    font-size: 20px;
+    padding:20px 0;
+ }
+
+ .highlight{
+    background-color: yellow;
+ }
+
+ .list{
+    padding: 0 20px 20px;
+ }
+
+ table{
+    border-collapse: collapse;
+}
+
+ thead{
+    background-color: lightseagreen;
+    text-align: left;
+ }
+
+ tbody .blue-column{
+    background-color: aquamarine;
+ }
+
+ .first-two{
+    width: 25%;
+ }
+
+ footer{
+    padding: 0 10px;
+ }
+
+footer div img{
+    width: 30%;
+    padding-bottom: 10px;
+ }
+
+ h3{
+    font-size: 20px;
+    color: grey;
+    padding: 20px 0;
+ }
+
+ .lorem-img{
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 850px;
+ }
+
+ .lorem-text{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+ }
