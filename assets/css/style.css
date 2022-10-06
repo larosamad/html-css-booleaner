@@ -12,7 +12,7 @@ header{
     background-color: lightseagreen;
 }
 
-header #logo{
+#logo{
     width: 15%;
     padding-top: 50px;
     padding-left: 10px;
@@ -61,11 +61,12 @@ h1 {
  }
 
  .list{
-    padding: 0 20px 20px;
+    margin-left: 1rem;
+    padding:20px;
  }
 
  table{
-    border-collapse: collapse;
+    border-spacing: 0px;
 }
 
  thead{
@@ -94,6 +95,19 @@ footer div img{
     font-size: 20px;
     color: grey;
     padding: 20px 0;
+ }
+
+ .bg-photo{
+   background-image: url(../img/monitor.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 300px;
+   height: 205px;
+   padding-top: 8px;
+   padding-left: 10px;
+   font-size: 22px;
+   font-weight: bold;
+   color: white;
  }
 
  .lorem-img{
